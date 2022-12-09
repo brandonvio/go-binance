@@ -14,10 +14,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/adshao/go-binance/v2/common"
-	"github.com/adshao/go-binance/v2/delivery"
-	"github.com/adshao/go-binance/v2/futures"
 	"github.com/bitly/go-simplejson"
+	"github.com/brandonvio/go-binance/v2/common"
+	"github.com/brandonvio/go-binance/v2/delivery"
+	"github.com/brandonvio/go-binance/v2/futures"
 	jsoniter "github.com/json-iterator/go"
 )
 
@@ -99,7 +99,7 @@ type RateLimitInterval string
 
 // Endpoints
 const (
-	baseAPIMainURL    = "https://api.binance.com"
+	baseAPIMainURL    = "https://api.binance.us"
 	baseAPITestnetURL = "https://testnet.binance.vision"
 )
 

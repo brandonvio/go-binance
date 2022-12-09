@@ -15,8 +15,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/adshao/go-binance/v2/common"
 	"github.com/bitly/go-simplejson"
+	"github.com/brandonvio/go-binance/v2/common"
 )
 
 // SideType define side type of order
@@ -72,7 +72,7 @@ type ForceOrderCloseType string
 
 // Endpoints
 const (
-	baseApiMainUrl    = "https://fapi.binance.com"
+	baseApiMainUrl    = "https://fapi.binance.us"
 	baseApiTestnetUrl = "https://testnet.binancefuture.com"
 )
 
